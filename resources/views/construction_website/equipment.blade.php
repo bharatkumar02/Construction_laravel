@@ -1,0 +1,171 @@
+@extends('construction_website.layout.app')
+
+@section('title', 'Equipment - Construction Website')
+
+@section('content')
+
+
+<!-- Equipment Page -->
+<div>
+  <!-- HERO -->
+  <section
+    class="flex flex-col-reverse gap-0 items-center lg:flex-row lg:h-full overflow-hidden">
+    <!-- left -->
+    <div class="p-8 lg:pl-20 xl:pl-28 whitespace-nowrap">
+      <h1 class="mt-4 text-4xl lg:text-5xl font-bold leading-tight font-montserrat">
+        Our Equipments
+      </h1>
+      <div
+        class="font-montserrat font-semibold text-[14px] flex items-center gap-3 mt-2.5">
+        <span>Home</span><span>/</span><span>Equipment</span>
+      </div>
+    </div>
+
+    <!-- big machine card -->
+    <div class="relative w-full lg:z-20 lg:pt-16 xl:pt-20">
+      <div class="py-7">
+        <img
+          src="./images/equipment.png"
+          alt="backhoe"
+          class="object-contain mx-auto drop-shadow-lg max-h-[17rem]" />
+      </div>
+      <div
+        class="absolute h-[70%] bg-gradient-to-b from-black via-black to-black/85 w-full top-0 -z-10 lg:h-full lg:w-[50%] lg:right-0"></div>
+    </div>
+  </section>
+
+  <!-- Equipment Page -->
+  <section id="equipment-section" class="py-14 px-6 md:px-16 bg-gray-100 pb-24 lg:py-28 lg:pb-28">
+    <!-- Equipment Grid -->
+    <div class="grid sm:grid-cols-2 xl:grid-cols-3 gap-[8rem] md:gap-10 *:h-fit lg:items-end">
+      <!-- Description Of Page -->
+      <div
+        class="bg-black text-white font-montserrat p-5 leading-relaxed shadow py-8 md:col-span-2 lg:col-span-1 lg:row-span-2 lg:py-12 xl:px-8">
+        <div class="space-y-5 lg:space-y-8">
+          <h2 class="text-xl md:text-2xl font-semibold leading-relaxed">
+            Advanced Construction Equipment for Every Challenge.
+          </h2>
+          <p>
+            At BuildStrong Constructions, we take pride in maintaining a modern and
+            efficient fleet of construction equipment. From powerful excavators and
+            loaders to cranes and road rollers, each piece of equipment is routinely
+            serviced and performance-tested to deliver top results, helping us meet
+            project timelines with unmatched quality.
+          </p>
+          <p>
+            Our investment in advanced technology and expert maintenance ensures that
+            we’re always ready to take on projects of any scale — building faster,
+            smarter, and stronger for our clients.
+          </p>
+          <div class="flex flex-col gap-3 italic tracking-wider *:space-x-3.5">
+            <a href=""><span><i class="ri-phone-fill"></i></span><span>+91 837-897-6133</span></a><a href=""><span><i class="ri-mail-open-fill"></i></span><span>kumarbharat9416@gmail.com</span></a>
+          </div>
+          <button class="mt-4 px-6 py-2 bg-yellow-500 text-white font-montserrat">
+            Contact Us
+            <span class="font-medium text-lg pl-1.5"><i class="ri-arrow-right-long-fill"></i></span>
+          </button>
+        </div>
+      </div>
+      <!-- Equipment Grid -->
+      <div class="bg-white shadow rounded p-5 relative md:mt-20 lg:mt-28">
+        <div class="absolute w-full px-10 -top-1/2 left-1/2 -translate-x-1/2">
+          <img
+            src="./images/truck.png"
+            alt="Wheel Loaders"
+            class="h-[10rem] w-auto object-contain drop-shadow-lg" />
+        </div>
+        <div class="pt-7 pb-1">
+          <h4 class="mt-4 font-bold text-gray-800 font-montserrat">Backhoe Loader</h4>
+          <p class="mt-2 text-sm text-gray-500 tracking-wide leading-6 min-h-[6rem]">
+            Versatile and powerful, backhoe loaders are perfect for digging, trenching,
+            and material handling, offering unmatched efficiency on construction sites.
+          </p>
+        </div>
+      </div>
+      <div class="bg-white shadow rounded p-5 relative md:mt-20 lg:mt-28">
+        <div class="absolute w-full px-10 -top-1/2 left-1/2 -translate-x-1/2">
+          <img
+            src="./images/mixer.png"
+            alt="Wheel Loaders"
+            class="h-[10rem] w-auto object-contain drop-shadow-lg" />
+        </div>
+        <div class="pt-7 pb-1">
+          <h4 class="mt-4 font-bold text-gray-800 font-montserrat">
+            Hydraulic Excavator
+          </h4>
+          <p class="mt-2 text-sm text-gray-500 tracking-wide leading-6 min-h-[6rem]">
+            Designed for heavy-duty digging and demolition, our hydraulic excavators
+            deliver precision, strength, and reliability in every terrain condition.
+          </p>
+        </div>
+      </div>
+      <div class="bg-white shadow rounded p-5 relative md:mt-20 lg:mt-28">
+        <div class="absolute w-full px-10 -top-1/2 left-1/2 -translate-x-1/2">
+          <img
+            src="./images/backheo.png"
+            alt="Wheel Loaders"
+            class="h-[10rem] w-auto object-contain drop-shadow-lg" />
+        </div>
+        <div class="pt-7 pb-1">
+          <h4 class="mt-4 font-bold text-gray-800 font-montserrat">Soil Compactor</h4>
+          <p class="mt-2 text-sm text-gray-500 tracking-wide leading-6 min-h-[6rem]">
+            Built to provide superior ground stability, our soil compactors ensure a
+            solid foundation for roads, pavements, and large-scale construction
+            projects.
+          </p>
+        </div>
+      </div>
+      <div class="bg-white shadow rounded p-5 relative md:mt-20 lg:mt-28">
+        <div class="absolute w-full px-10 -top-1/2 left-1/2 -translate-x-1/2">
+          <img
+            src="./images/crane.png"
+            alt="Wheel Loaders"
+            class="h-[10rem] w-auto object-contain drop-shadow-lg" />
+        </div>
+        <div class="pt-7 pb-1">
+          <h4 class="mt-4 font-bold text-gray-800 font-montserrat">Crawler Crane</h4>
+          <p class="mt-2 text-sm text-gray-500 tracking-wide leading-6 min-h-[6rem]">
+            Heavy-lifting made easy — crawler cranes offer powerful load capacity and
+            stable mobility, making them ideal for tall structure construction and
+            industrial projects.
+          </p>
+        </div>
+      </div>
+      <div class="bg-white shadow rounded p-5 relative md:mt-20 lg:mt-28">
+        <div class="absolute w-full px-10 -top-1/2 left-1/2 -translate-x-1/2">
+          <img
+            src="./images/buldozer.png"
+            alt="Wheel Loaders"
+            class="h-[10rem] w-auto object-contain drop-shadow-lg" />
+        </div>
+        <div class="pt-7 pb-1">
+          <h4 class="mt-4 font-bold text-gray-800 font-montserrat">
+            Concrete Mixer Truck
+          </h4>
+          <p class="mt-2 text-sm text-gray-500 tracking-wide leading-6 min-h-[6rem]">
+            Our concrete mixers are designed for consistent and efficient mixing,
+            ensuring smooth delivery and high-quality concrete for every construction
+            phase.
+          </p>
+        </div>
+      </div>
+      <div class="bg-white shadow rounded p-5 relative md:mt-20 lg:mt-28">
+        <div class="absolute w-full px-10 -top-1/2 left-1/2 -translate-x-1/2">
+          <img
+            src="./images/jcb.png"
+            alt="Wheel Loaders"
+            class="h-[10rem] w-auto object-contain drop-shadow-lg" />
+        </div>
+        <div class="pt-7 pb-1">
+          <h4 class="mt-4 font-bold text-gray-800 font-montserrat">Motor Grader</h4>
+          <p class="mt-2 text-sm text-gray-500 tracking-wide leading-6 min-h-[6rem]">
+            Precision grading made simple — motor graders provide a smooth and accurate
+            finish for road surfaces, foundations, and large construction areas.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+@endsection
