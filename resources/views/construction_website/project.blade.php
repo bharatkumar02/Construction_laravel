@@ -70,14 +70,49 @@
         <div class="absolute size-[2rem] bg-gray-100 bottom-0 right-14"></div>
         <div class="absolute p-5 bg-black -top-16 -right-3 md:-top-3  flex flex-col"><span class="text-xl lg:text-3xl font-semibold tracking-wider">15+</span><span class="text-[10px] pt-0.5">Years of</span><span class="text-[10px]">Experience</span></div>
       </div>
-      <!-- Project Grid -->
+
+      <!-- Project Cards -->
+  @php
+    $jsonPath = resource_path('views/construction_website/data/projects.json');
+    $projects = json_decode(file_get_contents($jsonPath), true);
+@endphp
+
+@foreach ($projects as $project)
+  <div class="border-[0.5px] shadow shadow-gray-300 border-gray-100 rounded overflow-hidden bg-white">
+    <div class="w-full">
+      <img
+        src="{{ $project['images'][0] }}"
+        alt="{{ $project['title'] }}"
+        class="w-full h-52" />
+    </div>
+    <div class="space-y-2.5 p-4 xl:p-6 pb-7">
+      <div class="flex justify-between">
+        <h3 class="font-montserrat font-semibold">{{ $project['title'] }}</h3>
+        <div class="space-x-0.5 text-gray-400">
+          <span><i class="ri-time-fill"></i></span>
+          <i class="text-[14px]">{{ $project['duration'] }}</i>
+        </div>
+      </div>
+      <p class="text-[15px] text-gray-600 leading-relaxed pt-2">
+        {{ $project['description'][1] }}
+      </p>
+      <a href="{{ route('project_detail', ['slug' => $project['slug']]) }}" class="mt-4 px-6 py-2 bg-black rounded text-white font-montserrat">
+        Know More
+        <span class="font-medium text-lg pl-1.5"><i class="ri-arrow-right-long-fill"></i></span>
+      </a>
+    </div>
+  </div>
+@endforeach
+
+      <!-- Hardcoded Project Cards (to be replaced with dynamic content) -->  
+      
       <div
         class="border-[0.5px] shadow shadow-gray-300 border-gray-100 rounded overflow-hidden bg-white">
         <div class="w-full">
           <img
             src="https://wpcharming.com/construction/wp-content/uploads/sites/8/2015/02/Member3-800x400.jpg"
             alt=""
-            class="w-full" />
+            class="w-full h-52" />
         </div>
         <div class="space-y-2.5 p-4 xl:p-6 pb-7">
           <div class="flex justify-between">
@@ -98,114 +133,9 @@
           </a>
         </div>
       </div>
-      <div
-        class="border-[0.5px] shadow shadow-gray-300 border-gray-100 rounded overflow-hidden bg-white">
-        <div class="w-full">
-          <img
-            src="https://wpcharming.com/construction/wp-content/uploads/sites/8/2015/02/Member3-800x400.jpg"
-            alt=""
-            class="w-full" />
-        </div>
-        <div class="space-y-2.5 p-4 xl:p-6 pb-7">
-          <div class="flex justify-between">
-            <h3 class="font-montserrat font-semibold">Interior Design</h3>
-            <div class="space-x-0.5 text-gray-400">
-              <span><i class="ri-time-fill"></i></span>
-              <i class="text-[14px]">3 Months</i>
-            </div>
-          </div>
-          <p class="text-[15px] text-gray-600 leading-relaxed pt-2">
-            Donec a felis sed ligula aliquet sollicitudin a in elit. Nunc at commodo
-            erat, fringilla egestas tortor. Vestibulum ante ipsum primis in faucibus
-            orci luctus et ultrices posuere cubilia Curae.
-          </p>
-          <a href="./project_detail.html" class="mt-4 px-6 py-2 bg-black rounded text-white font-montserrat">
-            Know More
-            <span class="font-medium text-lg pl-1.5"><i class="ri-arrow-right-long-fill"></i></span>
-          </a>
-        </div>
-      </div>
-      <div
-        class="border-[0.5px] shadow shadow-gray-300 border-gray-100 rounded overflow-hidden bg-white">
-        <div class="w-full">
-          <img
-            src="https://wpcharming.com/construction/wp-content/uploads/sites/8/2015/02/Member3-800x400.jpg"
-            alt=""
-            class="w-full" />
-        </div>
-        <div class="space-y-2.5 p-4 xl:p-6 pb-7">
-          <div class="flex justify-between">
-            <h3 class="font-montserrat font-semibold">Interior Design</h3>
-            <div class="space-x-0.5 text-gray-400">
-              <span><i class="ri-time-fill"></i></span>
-              <i class="text-[14px]">3 Months</i>
-            </div>
-          </div>
-          <p class="text-[15px] text-gray-600 leading-relaxed pt-2">
-            Donec a felis sed ligula aliquet sollicitudin a in elit. Nunc at commodo
-            erat, fringilla egestas tortor. Vestibulum ante ipsum primis in faucibus
-            orci luctus et ultrices posuere cubilia Curae.
-          </p>
-          <a href="./project_detail.html" class="mt-4 px-6 py-2 bg-black rounded text-white font-montserrat">
-            Know More
-            <span class="font-medium text-lg pl-1.5"><i class="ri-arrow-right-long-fill"></i></span>
-          </a>
-        </div>
-      </div>
-      <div
-        class="border-[0.5px] shadow shadow-gray-300 border-gray-100 rounded overflow-hidden bg-white">
-        <div class="w-full">
-          <img
-            src="https://wpcharming.com/construction/wp-content/uploads/sites/8/2015/02/Member3-800x400.jpg"
-            alt=""
-            class="w-full" />
-        </div>
-        <div class="space-y-2.5 p-4 xl:p-6 pb-7">
-          <div class="flex justify-between">
-            <h3 class="font-montserrat font-semibold">Interior Design</h3>
-            <div class="space-x-0.5 text-gray-400">
-              <span><i class="ri-time-fill"></i></span>
-              <i class="text-[14px]">3 Months</i>
-            </div>
-          </div>
-          <p class="text-[15px] text-gray-600 leading-relaxed pt-2">
-            Donec a felis sed ligula aliquet sollicitudin a in elit. Nunc at commodo
-            erat, fringilla egestas tortor. Vestibulum ante ipsum primis in faucibus
-            orci luctus et ultrices posuere cubilia Curae.
-          </p>
-          <a href="./project_detail.html" class="mt-4 px-6 py-2 bg-black rounded text-white font-montserrat">
-            Know More
-            <span class="font-medium text-lg pl-1.5"><i class="ri-arrow-right-long-fill"></i></span>
-          </a>
-        </div>
-      </div>
-      <div
-        class="border-[0.5px] shadow shadow-gray-300 border-gray-100 rounded overflow-hidden bg-white">
-        <div class="w-full">
-          <img
-            src="https://wpcharming.com/construction/wp-content/uploads/sites/8/2015/02/Member3-800x400.jpg"
-            alt=""
-            class="w-full" />
-        </div>
-        <div class="space-y-2.5 p-4 xl:p-6 pb-7">
-          <div class="flex justify-between">
-            <h3 class="font-montserrat font-semibold">Interior Design</h3>
-            <div class="space-x-0.5 text-gray-400">
-              <span><i class="ri-time-fill"></i></span>
-              <i class="text-[14px]">3 Months</i>
-            </div>
-          </div>
-          <p class="text-[15px] text-gray-600 leading-relaxed pt-2">
-            Donec a felis sed ligula aliquet sollicitudin a in elit. Nunc at commodo
-            erat, fringilla egestas tortor. Vestibulum ante ipsum primis in faucibus
-            orci luctus et ultrices posuere cubilia Curae.
-          </p>
-          <a href="./project_detail.html" class="mt-4 px-6 py-2 bg-black rounded text-white font-montserrat">
-            Know More
-            <span class="font-medium text-lg pl-1.5"><i class="ri-arrow-right-long-fill"></i></span>
-          </a>
-        </div>
-      </div>
+
+
+
     </div>
   </section>
 </div>

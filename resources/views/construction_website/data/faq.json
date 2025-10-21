@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "general",
+    "title": "General",
+    "faqs": [
+      {
+        "question": "What types of construction projects do you handle?",
+        "answer": "We manage a wide range of projects — from residential buildings and commercial spaces to industrial plants and infrastructure development."
+      },
+      {
+        "question": "How long does it usually take to complete a project?",
+        "answer": "Project duration depends on scale and complexity. Typically, residential projects take 6–12 months, while large commercial ones may take 12–24 months."
+      }
+    ]
+  },
+  {
+    "slug": "construction-process",
+    "title": "Construction Process",
+    "faqs": [
+      {
+        "question": "What is your construction workflow?",
+        "answer": "We follow a systematic approach: planning, designing, material sourcing, execution, and quality check before delivery."
+      }
+    ]
+  },
+  {
+    "slug": "pricing-payment",
+    "title": "Pricing & Payment",
+    "faqs": [
+      {
+        "question": "Do you offer cost estimation or free quotes?",
+        "answer": "Yes! We provide detailed cost estimation and free project consultation before starting any work to ensure full transparency."
+      }
+    ]
+  },
+  {
+    "slug": "safety-quality",
+    "title": "Safety & Quality",
+    "faqs": [
+      {
+        "question": "How do you ensure quality and safety during construction?",
+        "answer": "We follow strict quality control, use certified materials, and comply with all safety protocols — supervised by experienced engineers."
+      }
+    ]
+  },
+  {
+    "slug": "after-completion",
+    "title": "After Completion",
+    "faqs": [
+      {
+        "question": "What after-service do you provide post project completion?",
+        "answer": "We offer maintenance guidance, repair support, and warranty coverage for specific materials and installations."
+      }
+    ]
+  }
+]

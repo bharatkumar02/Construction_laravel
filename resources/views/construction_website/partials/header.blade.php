@@ -49,7 +49,7 @@
                 <a href="{{route('index')}}" class="hover:text-yellow-500">Home</a>
                 <a href="{{route('about')}}" class="hover:text-yellow-500">About Us</a>
                 <a href="{{route('equipment')}}" class="hover:text-yellow-500">Equipment</a>
-                <a href="#" class="hover:text-yellow-500">Projects</a>
+                <a href="{{route('project')}}" class="hover:text-yellow-500">Projects</a>
                 <a href="{{route('faq')}}" class="hover:text-yellow-500">FAQ's</a>
                 <a href="#" class="hover:text-yellow-500">Contact Us</a>
               </nav>

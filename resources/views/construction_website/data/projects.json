@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "interior-design",
+    "title": "Interior Design",
+    "duration": "3 Months",
+    "images": [
+      "https://anpsthemes.com/constructo-new-demos/2/wp-content/uploads/2014/12/42.jpg",
+      "https://anpsthemes.com/constructo-new-demos/2/wp-content/uploads/2014/12/11.jpg"
+    ],
+    "description": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit convallis facilisis...",
+      "Donec a felis sed ligula aliquet sollicitudin a in elit. Nunc at commodo erat, fringilla egestas tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+    ],
+    "location": "Dharuhera, Hanuman Mandir, Near Badi Haveli",
+    "features": [
+      { "icon": "ri-timer-fill", "text": "Timely Project Delivery" },
+      { "icon": "ri-stack-fill", "text": "Superior Build Quality" },
+      { "icon": "ri-shake-hands-fill", "text": "Client-Centric Approach" }
+    ],
+    "contact": "+91 837-897-6133"
+  }
+]
