@@ -104,36 +104,6 @@
       </div>
       @endforeach
 
-      <!-- Hardcoded Project Cards (to be replaced with dynamic content) -->
-
-      <div
-        class="border-[0.5px] shadow shadow-gray-300 border-gray-100 rounded overflow-hidden bg-white">
-        <div class="w-full">
-          <img
-            src="https://wpcharming.com/construction/wp-content/uploads/sites/8/2015/02/Member3-800x400.jpg"
-            alt=""
-            class="w-full h-52" />
-        </div>
-        <div class="space-y-2.5 p-4 xl:p-6 pb-7">
-          <div class="flex justify-between">
-            <h3 class="font-montserrat font-semibold">Interior Design</h3>
-            <div class="space-x-0.5 text-gray-400">
-              <span><i class="ri-time-fill"></i></span>
-              <i class="text-[14px]">3 Months</i>
-            </div>
-          </div>
-          <p class="text-[15px] text-gray-600 leading-relaxed pt-2">
-            Donec a felis sed ligula aliquet sollicitudin a in elit. Nunc at commodo
-            erat, fringilla egestas tortor. Vestibulum ante ipsum primis in faucibus
-            orci luctus et ultrices posuere cubilia Curae.
-          </p>
-          <a href="./project_detail.html" class="mt-4 px-6 py-2 bg-black rounded text-white font-montserrat">
-            Know More
-            <span class="font-medium text-lg pl-1.5"><i class="ri-arrow-right-long-fill"></i></span>
-          </a>
-        </div>
-      </div>
-
 
 
 

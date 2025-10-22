@@ -29,40 +29,6 @@ document.getElementById('contact-link').addEventListener('click', function(e) {
     });
   });
 
-// Accordion Logic
-const faqItems = document.querySelectorAll('.faq-item');
-faqItems.forEach((item) => {
-  const question = item.querySelector('.faq-question');
-  question.addEventListener('click', () => {
-    const answer = item.querySelector('.faq-answer');
-    const icon = question.querySelector('i');
-
-    // Close others
-    faqItems.forEach((i) => {
-      if (i !== item) {
-        i.querySelector('.faq-answer').classList.add('hidden');
-        i.querySelector('.faq-question i').classList.replace(
-          'ri-subtract-line',
-          'ri-add-line'
-        );
-      }
-    });
-
-    // Toggle current
-    answer.classList.toggle('hidden');
-    icon.classList.toggle('ri-add-line');
-    icon.classList.toggle('ri-subtract-line');
-  });
-});
-
-// Highlight selected category (UI only)
-const categoryBtns = document.querySelectorAll('.category-btn');
-categoryBtns.forEach((btn) => {
-  btn.addEventListener('click', () => {
-    categoryBtns.forEach((b) => b.classList.remove('text-yellow-600', 'font-semibold'));
-    btn.classList.add('text-yellow-600', 'font-semibold');
-  });
-});
 
 // Menu Button Toggle
 const menuBtn = document.getElementById('menu-btn');

@@ -99,37 +99,68 @@ $activeCategory = $categories[0]; // Default active category
 <script>
   const categories = @json($categories);
   const faqContainer = document.getElementById('faq-container');
-  const categoryBtns = document.querySelectorAll('.category-btn');
+  const faqCategoryBtns = document.querySelectorAll('.category-btn');
 
+  // Render FAQs of selected category
   function renderFAQs(category) {
     faqContainer.innerHTML = '';
     category.faqs.forEach(faq => {
       const item = document.createElement('div');
-      item.classList.add('faq-item', 'border', 'border-gray-200', 'rounded', 'overflow-hidden', 'bg-white', 'shadow', 'shadow-gray-200');
+      item.classList.add(
+        'faq-item',
+        'border',
+        'border-gray-200',
+        'rounded',
+        'overflow-hidden',
+        'bg-white',
+        'shadow',
+        'shadow-gray-200'
+      );
       item.innerHTML = `
-            <button class="faq-question w-full flex justify-between items-start p-4 gap-4 text-left font-semibold text-gray-800">
-                ${faq.question}
-                <i class="ri-add-line text-xl"></i>
-            </button>
-            <div class="faq-answer hidden p-4 pt-0 text-gray-700 leading-relaxed">
-                ${faq.answer}
-            </div>
-        `;
+        <button class="faq-question w-full flex justify-between items-start p-4 gap-4 text-left font-semibold text-gray-800">
+          ${faq.question}
+          <i class="ri-add-line text-xl"></i>
+        </button>
+        <div class="faq-answer hidden p-4 pt-0 text-gray-700 leading-relaxed">
+          ${faq.answer}
+        </div>
+      `;
       faqContainer.appendChild(item);
     });
 
-    // Add toggle behavior
-    faqContainer.querySelectorAll('.faq-question').forEach(q => {
-      q.addEventListener('click', () => {
-        const answer = q.nextElementSibling;
+    // Apply accordion behavior after rendering
+    const faqItems = faqContainer.querySelectorAll('.faq-item');
+    faqItems.forEach(item => {
+      const question = item.querySelector('.faq-question');
+      question.addEventListener('click', () => {
+        const answer = item.querySelector('.faq-answer');
+        const icon = question.querySelector('i');
+
+        // Close other FAQs
+        faqItems.forEach(i => {
+          if (i !== item) {
+            i.querySelector('.faq-answer').classList.add('hidden');
+            i.querySelector('.faq-question i').classList.replace(
+              'ri-subtract-line',
+              'ri-add-line'
+            );
+          }
+        });
+
+        // Toggle current one
         answer.classList.toggle('hidden');
+        icon.classList.toggle('ri-add-line');
+        icon.classList.toggle('ri-subtract-line');
       });
     });
   }
 
-  categoryBtns.forEach(btn => {
+  // Handle category selection
+  faqCategoryBtns.forEach(btn => {
     btn.addEventListener('click', () => {
-      categoryBtns.forEach(b => b.classList.remove('active', 'text-yellow-500', 'font-semibold'));
+      faqCategoryBtns.forEach(b =>
+        b.classList.remove('active', 'text-yellow-500', 'font-semibold')
+      );
       btn.classList.add('active', 'text-yellow-500', 'font-semibold');
 
       const slug = btn.dataset.slug;
@@ -138,13 +169,11 @@ $activeCategory = $categories[0]; // Default active category
     });
   });
 
-  // Initial toggle behavior
-  faqContainer.querySelectorAll('.faq-question').forEach(q => {
-    q.addEventListener('click', () => {
-      const answer = q.nextElementSibling;
-      answer.classList.toggle('hidden');
-    });
-  });
+  // Optional: render first category by default
+  if (categories.length) {
+    renderFAQs(categories[0]);
+    faqCategoryBtns[0]?.classList.add('active', 'text-yellow-500', 'font-semibold');
+  }
 </script>
 
 @endsection

@@ -14,11 +14,11 @@
        <form id="contactForm" action="{{ route('contact.submit') }}" method="POST" class="text-[15px] p-4 lg:p-8">
          @csrf
          <div class="grid grid-cols-2 gap-2 lg:gap-4">
-           <input name="first_name" type="text" placeholder="First Name" class="outline-none bg-white/85 backdrop-blur-sm text-black placeholder:text-gray-700 px-2 py-1.5" />
-           <input name="last_name" type="text" placeholder="Last Name" class="outline-none bg-white/85 backdrop-blur-sm text-black placeholder:text-gray-700 px-2 py-1.5" />
-           <input name="email" type="email" placeholder="Email" class="outline-none bg-white/85 backdrop-blur-sm text-black placeholder:text-gray-700 px-2 py-1.5" />
-           <input name="phone" type="tel" placeholder="Phone Number" class="outline-none bg-white/85 backdrop-blur-sm text-black placeholder:text-gray-700 px-2 py-1.5" />
-           <textarea name="message" rows="3" placeholder="Enter Your Message" class="outline-none bg-white/85 backdrop-blur-sm text-black placeholder:text-gray-700 px-2 py-1.5 col-span-2"></textarea>
+           <input name="first_name" type="text" placeholder="First Name" class="outline-none bg-white/85 backdrop-blur-sm text-black placeholder:text-gray-700 px-2 py-1.5" required />
+           <input name="last_name" type="text" placeholder="Last Name" class="outline-none bg-white/85 backdrop-blur-sm text-black placeholder:text-gray-700 px-2 py-1.5" required/>
+           <input name="email" type="email" placeholder="Email" class="outline-none bg-white/85 backdrop-blur-sm text-black placeholder:text-gray-700 px-2 py-1.5" required/>
+           <input name="phone" type="tel" placeholder="Phone Number" class="outline-none bg-white/85 backdrop-blur-sm text-black placeholder:text-gray-700 px-2 py-1.5" required/>
+           <textarea name="message" rows="3" placeholder="Enter Your Message" class="outline-none bg-white/85 backdrop-blur-sm text-black placeholder:text-gray-700 px-2 py-1.5 col-span-2" required></textarea>
          </div>
 
          <button type="submit" class="bg-black font-montserrat px-5 py-2 mt-4 cursor-pointer">Submit</button>
@@ -125,6 +125,8 @@
         </svg>
         Submitting...
       </span>`;
+
+              
 
        const formData = new FormData(form);
 

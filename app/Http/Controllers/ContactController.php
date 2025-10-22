@@ -19,11 +19,23 @@ class ContactController extends Controller
             'message'    => 'required|string',
         ]);
 
-        // Send email
         $adminEmail = 'kumarbharat9416@gmail.com';
-        Mail::to($adminEmail)->send(new ContactFormMail($validatedData));
+        try {
+            $mailer = config('mail.default');
+            if (in_array($mailer, ['log', 'array'])) {
+                throw new \Exception('Mail is configured to use log driver, not actual sending.');
+            }
 
-        // Return JSON response for AJAX
+            Mail::to($adminEmail)->send(new ContactFormMail($validatedData));
+        } catch (Exception $e) {
+
+            Log::error('Failed to send contact form email: ' . $e->getMessage());
+
+            return response()->json([
+                'success' => false,
+                'message' => 'Sorry, we were unable to send your message. Please try again later.'
+            ]);
+        }
         return response()->json([
             'success' => true,
             'message' => 'Your message has been sent successfully!'
