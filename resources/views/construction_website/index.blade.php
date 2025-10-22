@@ -8,7 +8,7 @@
     <section class="flex flex-col-reverse gap-0 items-center lg:flex-row lg:h-full">
       <!-- left -->
       <div class="p-8 lg:pl-20 xl:pl-28">
-        <div class="flex items-start justify-between">
+        <div class="flex items-start justify-between pb-5">
           <div>
             <h6 class="text-yellow-500 font-montserrat font-semibold">
               The Right Equipment
@@ -22,12 +22,12 @@
             </p>
           </div>
         </div>
-        <button class="mt-4 px-6 py-2 bg-yellow-500 text-white font-montserrat">
+        <a href="#contact" class="px-6 py-3 bg-yellow-500 text-white font-montserrat">
           Contact Us
           <span class="font-medium text-lg pl-1.5"
             ><i class="ri-arrow-right-long-fill"></i
           ></span>
-        </button>
+        </a>
       </div>
 
       <!-- big machine card -->

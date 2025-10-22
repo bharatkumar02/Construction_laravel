@@ -35,37 +35,36 @@
   </section>
 
   <!-- Equipment Page -->
-  <section id="equipment-section" class="py-14 px-6 md:px-16 bg-gray-100 pb-24 lg:py-28 lg:pb-28">
-    <!-- Equipment Grid -->
-    <div class="grid sm:grid-cols-2 xl:grid-cols-3 gap-[8rem] md:gap-10 *:h-fit lg:items-end">
-      <!-- Description Of Page -->
-      <div
-        class="bg-black text-white font-montserrat p-5 leading-relaxed shadow py-8 md:col-span-2 lg:col-span-1 lg:row-span-2 lg:py-12 xl:px-8">
-        <div class="space-y-5 lg:space-y-8">
-          <h2 class="text-xl md:text-2xl font-semibold leading-relaxed">
-            Advanced Construction Equipment for Every Challenge.
-          </h2>
-          <p>
-            At BuildStrong Constructions, we take pride in maintaining a modern and
-            efficient fleet of construction equipment. From powerful excavators and
-            loaders to cranes and road rollers, each piece of equipment is routinely
-            serviced and performance-tested to deliver top results, helping us meet
-            project timelines with unmatched quality.
-          </p>
-          <p>
-            Our investment in advanced technology and expert maintenance ensures that
-            we’re always ready to take on projects of any scale — building faster,
-            smarter, and stronger for our clients.
-          </p>
-          <div class="flex flex-col gap-3 italic tracking-wider *:space-x-3.5">
-            <a href=""><span><i class="ri-phone-fill"></i></span><span>+91 837-897-6133</span></a><a href=""><span><i class="ri-mail-open-fill"></i></span><span>kumarbharat9416@gmail.com</span></a>
-          </div>
-          <button class="mt-4 px-6 py-2 bg-yellow-500 text-white font-montserrat">
-            Contact Us
-            <span class="font-medium text-lg pl-1.5"><i class="ri-arrow-right-long-fill"></i></span>
-          </button>
+  <section id="equipment-section" class="py-14 px-6 md:px-16 bg-gray-100 pb-24 lg:py-28 lg:pb-28 lg:flex 2xl:px-38 lg:gap-14 lg:relative">
+    <!-- Description Of Page -->
+    <div
+      class="bg-black text-white font-montserrat p-5 leading-relaxed shadow py-8 lg:py-12 xl:px-8 lg:max-w-[24rem] lg:w-full h-fit lg:sticky lg:top-0">
+      <div class="space-y-5 lg:space-y-8">
+        <h2 class="text-xl md:text-2xl font-semibold leading-relaxed">
+          Advanced Construction Equipment for Every Challenge.
+        </h2>
+        <p>
+          At BuildStrong Constructions, we take pride in maintaining a modern and
+          efficient fleet of construction equipment. From powerful excavators and
+          loaders to cranes and road rollers, each piece of equipment is routinely
+          serviced and performance-tested to deliver top results, helping us meet
+          project timelines with unmatched quality.
+        </p>
+        <p>
+          Our investment in advanced technology and expert maintenance ensures that
+          we’re always ready to take on projects of any scale — building faster,
+          smarter, and stronger for our clients.
+        </p>
+        <div class="flex flex-col gap-3 italic tracking-wider *:space-x-3.5">
+          <a href=""><span><i class="ri-phone-fill"></i></span><span>+91 837-897-6133</span></a><a href=""><span><i class="ri-mail-open-fill"></i></span><span>kumarbharat9416@gmail.com</span></a>
         </div>
+        <button class="mt-4 px-6 py-2 bg-yellow-500 text-white font-montserrat">
+          Contact Us
+          <span class="font-medium text-lg pl-1.5"><i class="ri-arrow-right-long-fill"></i></span>
+        </button>
       </div>
+    </div>
+    <div class="grid sm:grid-cols-2 gap-[8rem] md:gap-10 *:h-fit lg:items-end mt-[10rem] lg:mt-0">
       <!-- Equipment Grid -->
       <div class="bg-white shadow rounded p-5 relative md:mt-20 lg:mt-28">
         <div class="absolute w-full px-10 -top-1/2 left-1/2 -translate-x-1/2">

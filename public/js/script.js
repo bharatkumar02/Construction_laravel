@@ -21,10 +21,13 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-// Scroll to FAQ section
-function scrollToFAQ() {
-  document.querySelector('#faq-section').scrollIntoView({ behavior: 'smooth' });
-}
+// Smooth Scroll Logic
+document.getElementById('contact-link').addEventListener('click', function(e) {
+    e.preventDefault(); // prevent the default jump
+    document.querySelector('#contact').scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
 
 // Accordion Logic
 const faqItems = document.querySelectorAll('.faq-item');
