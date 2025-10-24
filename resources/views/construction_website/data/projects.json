@@ -1,82 +1,62 @@
 [
   {
-    "slug": "interior-design",
-    "title": "Interior Design",
-    "duration": "3 Months",
+    "slug": "excavation-project",
+    "title": "Excavation Project",
+    "duration": "2 Weeks",
     "images": [
-      "https://anpsthemes.com/constructo-new-demos/2/wp-content/uploads/2014/12/42.jpg",
-      "https://anpsthemes.com/constructo-new-demos/2/wp-content/uploads/2014/12/11.jpg"
+      "https://plus.unsplash.com/premium_photo-1661963927439-26e74bee3674?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870",
+      "https://plus.unsplash.com/premium_photo-1661963927439-26e74bee3674?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870"
     ],
     "description": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit convallis facilisis.",
-      "Donec a felis sed ligula aliquet sollicitudin a in elit. Nunc at commodo erat, fringilla egestas tortor."
+      "Our fleet of hydraulic excavators supported large-scale site excavation with precision and efficiency.",
+      "The rental included full maintenance and on-site delivery to keep the project on schedule."
     ],
-    "location": "Dharuhera, Hanuman Mandir, Near Badi Haveli",
+    "location": "Mumbai, Maharashtra, India",
     "features": [
-      { "icon": "ri-timer-fill", "text": "Timely Project Delivery" },
-      { "icon": "ri-stack-fill", "text": "Superior Build Quality" },
-      { "icon": "ri-shake-hands-fill", "text": "Client-Centric Approach" }
+      { "icon": "ri-timer-fill", "text": "On-Time Vehicle Delivery" },
+      { "icon": "ri-stack-fill", "text": "Well-Maintained Fleet" },
+      { "icon": "ri-shake-hands-fill", "text": "Expert Client Support" }
     ],
     "contact": "+91 837-897-6133"
   },
   {
-    "slug": "architecture-planning",
-    "title": "Architecture & Planning",
-    "duration": "6 Months",
+    "slug": "road-construction",
+    "title": "Road Construction Support",
+    "duration": "1 Month",
     "images": [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
-      "https://images.unsplash.com/photo-1600607689246-3d0b9af2b6a0"
+      "https://plus.unsplash.com/premium_photo-1661911778005-bda918172dd3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=882",
+      "https://plus.unsplash.com/premium_photo-1661911778005-bda918172dd3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=882"
     ],
     "description": [
-      "Master the principles of modern architecture, sustainable design, and space optimization.",
-      "This program helps you conceptualize, visualize, and plan architectural projects with real-world exposure.Master the principles of modern architecture, sustainable design, and space optimization."
+      "Road rollers and motor graders were rented to ensure smooth and precise road construction.",
+      "Our team coordinated delivery and pickup, minimizing downtime and increasing efficiency."
     ],
-    "location": "Gurugram, Sector 46, Near Medanta Hospital",
+    "location": "Pune, Maharashtra, India",
     "features": [
-      { "icon": "ri-building-2-fill", "text": "Real-world Project Training" },
-      { "icon": "ri-draft-fill", "text": "Blueprint Reading & CAD" },
-      { "icon": "ri-graduation-cap-fill", "text": "Professional Mentorship" }
+      { "icon": "ri-timer-fill", "text": "Reliable Fleet Availability" },
+      { "icon": "ri-stack-fill", "text": "High Performance Vehicles" },
+      { "icon": "ri-shake-hands-fill", "text": "Dedicated Operations Support" }
     ],
-    "contact": "+91 981-234-5678"
+    "contact": "+91 837-897-6133"
   },
   {
-    "slug": "landscape-design",
-    "title": "Landscape Design",
-    "duration": "4 Months",
+    "slug": "industrial-site-lift",
+    "title": "Industrial Site Lifting",
+    "duration": "3 Weeks",
     "images": [
-      "https://images.unsplash.com/photo-1501004318641-b39e6451bec6",
-      "https://images.unsplash.com/photo-1556912167-f556f1f39b2c"
+      "https://images.unsplash.com/photo-1559081584-bbaaa2ba8ebc?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=774",
+      "https://images.unsplash.com/photo-1559081584-bbaaa2ba8ebc?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=774"
     ],
     "description": [
-      "Learn how to design outdoor environments that harmonize aesthetics and sustainability.",
-      "From plant selection to 3D layout visualization, this course covers every aspect of modern landscaping."
+      "Crawler cranes were deployed for lifting heavy industrial components at a construction site.",
+      "The rental included on-site support and safety checks to ensure smooth operations."
     ],
-    "location": "Jaipur, Civil Lines, Near Metro Station",
+    "location": "Ahmedabad, Gujarat, India",
     "features": [
-      { "icon": "ri-leaf-fill", "text": "Eco-friendly Design Approach" },
-      { "icon": "ri-map-pin-2-fill", "text": "On-site Field Visits" },
-      { "icon": "ri-gallery-fill", "text": "3D Visualization Training" }
+      { "icon": "ri-timer-fill", "text": "Prompt Crane Delivery" },
+      { "icon": "ri-stack-fill", "text": "Safety-Assured Fleet" },
+      { "icon": "ri-shake-hands-fill", "text": "Expert Logistics Assistance" }
     ],
-    "contact": "+91 998-822-3456"
-  },
-  {
-    "slug": "civil-consultancy",
-    "title": "Civil Consultancy Services",
-    "duration": "Ongoing",
-    "images": [
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e",
-      "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a"
-    ],
-    "description": [
-      "We offer end-to-end consultancy for residential and commercial construction projects.",
-      "Our team ensures adherence to quality, safety, and sustainability standards.We offer end-to-end consultancy for residential and commercial construction projects."
-    ],
-    "location": "Rewari, Model Town, Near Railway Road",
-    "features": [
-      { "icon": "ri-building-fill", "text": "Structural Design Support" },
-      { "icon": "ri-draft-line", "text": "Regulatory Compliance" },
-      { "icon": "ri-earth-fill", "text": "Sustainable Practices" }
-    ],
-    "contact": "+91 780-004-5599"
+    "contact": "+91 837-897-6133"
   }
 ]

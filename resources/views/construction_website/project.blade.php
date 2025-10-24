@@ -22,7 +22,7 @@
     <div class="relative w-full lg:z-20 lg:pt-16">
       <div>
         <img
-          src="./images/project.png"
+          src="https://images.unsplash.com/photo-1684763046850-56fb4a3e9918?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=435"
           alt="backhoe"
           class="object-contain max-w-[20rem] lg:max-w-[38rem] mx-auto drop-shadow-lg" />
       </div>
@@ -38,23 +38,21 @@
       class="bg-gradient-to-b from-yellow-600 via-yellow-600 to-yellow-500 text-white font-montserrat p-5 leading-relaxed py-8 lg:py-12 xl:px-8 lg:sticky lg:top-0 lg:max-w-[25rem] lg:h-fit">
       <div class="space-y-5 lg:space-y-8">
         <h2 class=" text-xl md:text-2xl leading-relaxed font-semibold md:pr-10">
-          Building Landmarks, Delivering Excellence
+Powering Construction Success Across Sites
         </h2>
         <p>
-          Each project we deliver is built on trust, innovation, and precision. Our
-          commitment to excellence ensures that every structure meets the highest
-          standards of quality and design.
+          Every project we support is backed by reliable, high-performance construction vehicles. From excavation and material handling to roadwork and heavy lifting, our fleet helps clients complete tasks efficiently, safely, and on schedule.
         </p>
 
         <ul class="space-y-2 *:space-x-2.5 text-[15px]">
           <li>
-            <span class="text-xl"><i class="ri-timer-fill"></i></span><span class="font-medium">Timely Project Delivery</span>
+            <span class="text-xl"><i class="ri-timer-fill"></i></span><span class="font-medium">On-Time Vehicle Delivery</span>
           </li>
           <li>
-            <span class="text-xl"><i class="ri-stack-fill"></i></span><span class="font-medium">Superior Build Quality</span>
+            <span class="text-xl"><i class="ri-stack-fill"></i></span><span class="font-medium">Well-Maintained, Reliable Fleet</span>
           </li>
           <li>
-            <span class="text-xl"><i class="ri-shake-hands-fill"></i></span><span class="font-medium">Client-Centric Approach</span>
+            <span class="text-xl"><i class="ri-shake-hands-fill"></i></span><span class="font-medium">Customer-Focused Service</span>
           </li>
         </ul>
 

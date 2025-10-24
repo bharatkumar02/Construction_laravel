@@ -42,7 +42,7 @@
                class="flex flex-col gap-5 text-lg md:text-[15px] font-montserrat text-gray-800 md:flex-row md:gap-7 md:justify-end font-medium whitespace-nowrap">
                <a href="{{route('index')}}" class="hover:text-yellow-500">Home</a>
                <a href="{{route('about')}}" class="hover:text-yellow-500">About Us</a>
-               <a href="{{route('equipment')}}" class="hover:text-yellow-500">Equipment</a>
+               <a href="{{route('equipment')}}" class="hover:text-yellow-500">Machinery</a>
                <a href="{{route('project')}}" class="hover:text-yellow-500">Projects</a>
                <a href="{{route('faq')}}" class="hover:text-yellow-500">FAQ's</a>
                <a href="#contact" id="contact-link" class="hover:text-yellow-500">Contact Us</a>

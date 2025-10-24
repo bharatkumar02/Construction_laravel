@@ -1,11 +1,11 @@
 @extends('construction_website.layout.app')
 
-@section('title', 'Equipment - Construction Website')
+@section('title', 'Vehicle - Construction Website')
 
 @section('content')
 
 
-<!-- Equipment Page -->
+<!-- Vehicle Page -->
 <div>
   <!-- HERO -->
   <section
@@ -13,11 +13,11 @@
     <!-- left -->
     <div class="p-8 lg:pl-20 xl:pl-28 whitespace-nowrap">
       <h1 class="mt-4 text-4xl lg:text-5xl font-bold leading-tight font-montserrat">
-        Our Equipments
+        Our Machinery
       </h1>
       <div
         class="font-montserrat font-semibold text-[14px] flex items-center gap-3 mt-2.5">
-        <span>Home</span><span>/</span><span>Equipment</span>
+        <span>Home</span><span>/</span><span>Machinery</span>
       </div>
     </div>
 
@@ -34,26 +34,20 @@
     </div>
   </section>
 
-  <!-- Equipment Page -->
+  <!-- Vehicle Page -->
   <section id="equipment-section" class="py-14 px-6 md:px-16 bg-gray-100 pb-24 lg:py-28 lg:pb-28 lg:flex 2xl:px-38 lg:gap-14 lg:relative">
     <!-- Description Of Page -->
     <div
       class="bg-black text-white font-montserrat p-5 leading-relaxed shadow py-8 lg:py-12 xl:px-8 lg:max-w-[24rem] lg:w-full h-fit lg:sticky lg:top-0">
       <div class="space-y-5 lg:space-y-8">
         <h2 class="text-xl md:text-2xl font-semibold leading-relaxed">
-          Advanced Construction Equipment for Every Challenge.
-        </h2>
+Advanced Construction Vehicles for Every Challenge        </h2>
         <p>
-          At BuildStrong Constructions, we take pride in maintaining a modern and
-          efficient fleet of construction equipment. From powerful excavators and
-          loaders to cranes and road rollers, each piece of equipment is routinely
-          serviced and performance-tested to deliver top results, helping us meet
-          project timelines with unmatched quality.
+          At BuildStrong Rentals, we maintain a modern and efficient fleet of construction vehicles. From powerful excavators and loaders to cranes and road rollers, every machine is routinely serviced and performance-tested to ensure reliability and safety.
         </p>
         <p>
           Our investment in advanced technology and expert maintenance ensures that
-          we’re always ready to take on projects of any scale — building faster,
-          smarter, and stronger for our clients.
+          With our investment in advanced technology and expert maintenance, our fleet is always ready to keep your projects on schedule — delivering efficiency, strength, and peace of mind with every rental.
         </p>
         <div class="flex flex-col gap-3 italic tracking-wider *:space-x-3.5">
           <a href=""><span><i class="ri-phone-fill"></i></span><span>+91 837-897-6133</span></a><a href=""><span><i class="ri-mail-open-fill"></i></span><span>kumarbharat9416@gmail.com</span></a>
@@ -76,8 +70,7 @@
         <div class="pt-7 pb-1">
           <h4 class="mt-4 font-bold text-gray-800 font-montserrat">Backhoe Loader</h4>
           <p class="mt-2 text-sm text-gray-500 tracking-wide leading-6 min-h-[6rem]">
-            Versatile and powerful, backhoe loaders are perfect for digging, trenching,
-            and material handling, offering unmatched efficiency on construction sites.
+           Versatile and powerful, backhoe loaders are perfect for digging, trenching, and material handling. Ideal for medium-scale construction sites, they offer unmatched efficiency and flexibility. Our rentals come fully maintained, ensuring peak performance from the first day on site.
           </p>
         </div>
       </div>
@@ -93,8 +86,7 @@
             Hydraulic Excavator
           </h4>
           <p class="mt-2 text-sm text-gray-500 tracking-wide leading-6 min-h-[6rem]">
-            Designed for heavy-duty digging and demolition, our hydraulic excavators
-            deliver precision, strength, and reliability in every terrain condition.
+          Designed for heavy-duty digging, demolition, and earthmoving, our hydraulic excavators deliver precision, strength, and reliability across all terrain conditions. Each unit is serviced and tested for optimal performance, helping you complete large-scale tasks efficiently.
           </p>
         </div>
       </div>
@@ -108,9 +100,7 @@
         <div class="pt-7 pb-1">
           <h4 class="mt-4 font-bold text-gray-800 font-montserrat">Soil Compactor</h4>
           <p class="mt-2 text-sm text-gray-500 tracking-wide leading-6 min-h-[6rem]">
-            Built to provide superior ground stability, our soil compactors ensure a
-            solid foundation for roads, pavements, and large-scale construction
-            projects.
+            Engineered to provide superior ground stability, soil compactors ensure a solid foundation for roads, pavements, and large-scale construction projects. Renting from us guarantees machines that are fully maintained and ready to deliver consistent results.
           </p>
         </div>
       </div>
@@ -124,9 +114,7 @@
         <div class="pt-7 pb-1">
           <h4 class="mt-4 font-bold text-gray-800 font-montserrat">Crawler Crane</h4>
           <p class="mt-2 text-sm text-gray-500 tracking-wide leading-6 min-h-[6rem]">
-            Heavy-lifting made easy — crawler cranes offer powerful load capacity and
-            stable mobility, making them ideal for tall structure construction and
-            industrial projects.
+           Heavy-lifting made easy — crawler cranes provide powerful load capacity and stable mobility, making them ideal for high-rise construction and industrial projects. Our rental units undergo rigorous safety and performance checks for worry-free operation.
           </p>
         </div>
       </div>
@@ -142,9 +130,7 @@
             Concrete Mixer Truck
           </h4>
           <p class="mt-2 text-sm text-gray-500 tracking-wide leading-6 min-h-[6rem]">
-            Our concrete mixers are designed for consistent and efficient mixing,
-            ensuring smooth delivery and high-quality concrete for every construction
-            phase.
+            Our concrete mixers ensure consistent and efficient mixing, delivering high-quality concrete on schedule. Designed for durability and ease of use, they help keep your construction workflow smooth and uninterrupted.
           </p>
         </div>
       </div>
@@ -158,8 +144,7 @@
         <div class="pt-7 pb-1">
           <h4 class="mt-4 font-bold text-gray-800 font-montserrat">Motor Grader</h4>
           <p class="mt-2 text-sm text-gray-500 tracking-wide leading-6 min-h-[6rem]">
-            Precision grading made simple — motor graders provide a smooth and accurate
-            finish for road surfaces, foundations, and large construction areas.
+            Precision grading made simple — motor graders provide smooth and accurate finishes for road surfaces, foundations, and large construction areas. Fully maintained and ready for rental, they save time and improve project quality.
           </p>
         </div>
       </div>

@@ -4,22 +4,26 @@
     "title": "General",
     "faqs": [
       {
-        "question": "What types of construction projects do you handle?",
-        "answer": "We manage a wide range of projects — from residential buildings and commercial spaces to industrial plants and infrastructure development."
+        "question": "What types of construction vehicles do you rent?",
+        "answer": "We provide a wide range of vehicles, including excavators, backhoe loaders, concrete mixers, motor graders, cranes, and more — suitable for residential, commercial, and industrial projects."
       },
       {
-        "question": "How long does it usually take to complete a project?",
-        "answer": "Project duration depends on scale and complexity. Typically, residential projects take 6–12 months, while large commercial ones may take 12–24 months."
+        "question": "How long can I rent a vehicle?",
+        "answer": "Rental durations are flexible — from a single day to several months, depending on your project requirements."
       }
     ]
   },
   {
-    "slug": "construction-process",
-    "title": "Construction Process",
+    "slug": "rental-process",
+    "title": "Rental Process",
     "faqs": [
       {
-        "question": "What is your construction workflow?",
-        "answer": "We follow a systematic approach: planning, designing, material sourcing, execution, and quality check before delivery."
+        "question": "How does the rental process work?",
+        "answer": "You can request a vehicle online or via phone, receive a quotation, confirm your booking, and our team will deliver the vehicle to your site on schedule."
+      },
+      {
+        "question": "Do you provide on-site support?",
+        "answer": "Yes, our team ensures the vehicle is set up correctly, offers operational guidance, and handles any maintenance issues during the rental period."
       }
     ]
   },
@@ -28,28 +32,32 @@
     "title": "Pricing & Payment",
     "faqs": [
       {
-        "question": "Do you offer cost estimation or free quotes?",
-        "answer": "Yes! We provide detailed cost estimation and free project consultation before starting any work to ensure full transparency."
+        "question": "How is rental pricing determined?",
+        "answer": "Pricing depends on the type of vehicle, duration of rental, and any additional services like delivery or operator support. We provide clear, upfront quotes for every rental."
+      },
+      {
+        "question": "What payment methods are accepted?",
+        "answer": "We accept bank transfers, UPI payments, and credit/debit cards for both short-term and long-term rentals."
       }
     ]
   },
   {
-    "slug": "safety-quality",
-    "title": "Safety & Quality",
+    "slug": "safety-maintenance",
+    "title": "Safety & Maintenance",
     "faqs": [
       {
-        "question": "How do you ensure quality and safety during construction?",
-        "answer": "We follow strict quality control, use certified materials, and comply with all safety protocols — supervised by experienced engineers."
+        "question": "How do you ensure vehicle safety and reliability?",
+        "answer": "All vehicles are routinely serviced, inspected, and performance-tested. Safety checks are performed before delivery, and support is provided throughout the rental period."
       }
     ]
   },
   {
-    "slug": "after-completion",
-    "title": "After Completion",
+    "slug": "after-rental",
+    "title": "After Rental",
     "faqs": [
       {
-        "question": "What after-service do you provide post project completion?",
-        "answer": "We offer maintenance guidance, repair support, and warranty coverage for specific materials and installations."
+        "question": "What support do you provide after rental completion?",
+        "answer": "We handle vehicle pickup, inspect for maintenance needs, and provide guidance for future rentals or project planning."
       }
     ]
   }

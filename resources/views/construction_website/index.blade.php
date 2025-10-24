@@ -11,15 +11,13 @@
         <div class="flex items-start justify-between pb-5">
           <div>
             <h6 class="text-yellow-500 font-montserrat font-semibold">
-              The Right Equipment
-            </h6>
+              Power That Moves Your Project
+                   </h6>
             <h1 class="mt-4 text-4xl lg:text-5xl font-bold leading-tight font-montserrat">
-              Looking For <span class="text-yellow-500">Best Equipment.</span>
+             Looking for the <span class="text-yellow-500">best construction vehicles?</span>
             </h1>
             <p class="my-4 text-gray-700 text-[15px]">
-              Consider your choices and do not be late! Track towards the selected sellers
-              first to buy or rent equipment from the great plans.
-            </p>
+            Rent heavy-duty machines from trusted providers — ready when and where you need them.            </p>
           </div>
         </div>
         <a href="#contact" class="px-6 py-3 bg-yellow-500 text-white font-montserrat">
@@ -49,14 +47,13 @@
     <section class="px-6 pt-16 bg-gray-50 lg:px-10 xl:px-32 pb-28">
       <div class="text-center lg:pb-10">
         <div class="text-sm text-yellow-500 font-semibold font-montserrat">
-          Find The Right Equipment
+Find the Right Vehicle
         </div>
         <h2 class="mt-2 text-3xl font-bold font-montserrat">
-          Browse Machinery Categories
+          Browse Machinery 
         </h2>
         <p class="mt-3 text-gray-600 max-w-2xl mx-auto">
-          Explore our machinery categories — find reliable equipment for your project
-          quickly.
+          Explore our range of construction vehicles — rent the right machine for your project quickly and easily.
         </p>
       </div>
 
@@ -241,7 +238,7 @@
               >1</strong
             >
             <span class="w-5 bg-yellow-500 h-0.5 mr-2"></span>
-            <h3 class="font-semibold">Consultation & Planning</h3>
+            <h3 class="font-semibold">Request Your Vehicle</h3>
           </li>
           <li>
             <strong
@@ -249,7 +246,7 @@
               >2</strong
             >
             <span class="w-5 bg-yellow-500 h-0.5 mr-2"></span>
-            <h3 class="font-semibold">Design & Estimation</h3>
+            <h3 class="font-semibold">Get a Quick Quote</h3>
           </li>
           <li>
             <strong
@@ -257,7 +254,7 @@
               >3</strong
             >
             <span class="w-5 bg-yellow-500 h-0.5 mr-2"></span>
-            <h3 class="font-semibold">Procurement & Preparation</h3>
+            <h3 class="font-semibold">Confirm Your Booking</h3>
           </li>
           <li>
             <strong
@@ -265,7 +262,7 @@
               >4</strong
             >
             <span class="w-5 bg-yellow-500 h-0.5 mr-2"></span>
-            <h3 class="font-semibold">Construction Execution</h3>
+            <h3 class="font-semibold">Receive On-Site Delivery</h3>
           </li>
           <li>
             <strong
@@ -273,7 +270,7 @@
               >5</strong
             >
             <span class="w-5 bg-yellow-500 h-0.5 mr-2"></span>
-            <h3 class="font-semibold">Quality Inspection</h3>
+            <h3 class="font-semibold">Use with Full Support</h3>
           </li>
           <li>
             <strong
@@ -281,7 +278,7 @@
               >6</strong
             >
             <span class="w-5 bg-yellow-500 h-0.5 mr-2"></span>
-            <h3 class="font-semibold">Project Handover</h3>
+            <h3 class="font-semibold">Return Hassle-Free</h3>
           </li>
         </ul>
 
@@ -307,14 +304,12 @@
     >
       <div class="px-6 md:px-16 lg:py-4">
         <div class="text-center lg:pb-10 lg:text-start">
-          <div class="text-sm text-yellow-500 font-semibold font-montserrat">
+          <!-- <div class="text-sm text-yellow-500 font-semibold font-montserrat">
             Why Choose Us
-          </div>
+          </div> -->
           <h2 class="mt-2 text-3xl font-bold font-montserrat">Why Choose Us</h2>
           <p class="mt-3 text-gray-500 max-w-2xl mx-auto">
-            At BuildStrong Constructions, we blend experience, innovation, and integrity
-            to deliver reliable, world-class construction solutions trusted by hundreds of
-            clients.
+           At BuildStrong Rentals, we provide dependable construction vehicles and machinery backed by timely service and expert support — ensuring your projects run smoothly from start to finish.
           </p>
           <ul
             class="*:flex *:items-center space-y-4 mt-7 font-montserrat md:flex *:md:flex-col *:md:gap-4 *:md:items-start md:justify-between lg:space-y-0 lg:pt-4"
@@ -325,7 +320,7 @@
                 ><i class="ri-team-fill"></i
               ></span>
               <span class="w-5 bg-yellow-500 h-0.5 mr-2"></span>
-              <h3 class="font-semibold">Experienced Professionals</h3>
+              <h3 class="font-semibold">Expert Support</h3>
             </li>
             <li>
               <span
@@ -333,7 +328,7 @@
                 ><i class="ri-tools-fill"></i
               ></span>
               <span class="w-5 bg-yellow-500 h-0.5 mr-2"></span>
-              <h3 class="font-semibold">Quality Materials</h3>
+              <h3 class="font-semibold">Reliable Fleet</h3>
             </li>
             <li>
               <span
@@ -366,8 +361,8 @@
             <ul class="flex items-center gap-5 *:flex *:flex-col tracking-wide md:gap-16">
               <li>
                 <span class="text-xl font-montserrat font-bold lg:text-2xl xl:text-3xl"
-                  >3.5k</span
-                ><span class="text-xs md:text-sm">Project Done</span>
+                  >1.5k</span
+                ><span class="text-xs md:text-sm">Clients Served</span>
               </li>
               <li>
                 <span class="text-xl font-montserrat font-bold lg:text-2xl xl:text-3xl"
@@ -376,8 +371,8 @@
               </li>
               <li>
                 <span class="text-xl font-montserrat font-bold lg:text-2xl xl:text-3xl"
-                  >10+</span
-                ><span class="text-xs md:text-sm">Awards Achieved</span>
+                  >40+</span
+                ><span class="text-xs md:text-sm">Vehicles Available</span>
               </li>
             </ul>
           </div>
@@ -392,11 +387,10 @@
           Clients Feedback
         </div>
         <h2 class="mt-2 text-3xl font-bold font-montserrat">
-          Words From Loyal Customers
+          Words From Our Valued Customers
         </h2>
         <p class="mt-3 text-gray-600 max-w-2xl mx-auto">
-          Explore our machinery categories — find reliable equipment for your project
-          quickly.
+          Hear from clients who rely on our construction vehicle rental services for timely delivery, reliable machines, and professional support.
         </p>
       </div>
 
