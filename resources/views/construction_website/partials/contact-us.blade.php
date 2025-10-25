@@ -56,7 +56,7 @@
 </section>
 
 <!-- Top Heading -->
-<section class="bg-[url('assets/img/contactBanner.svg')]  bg-cover  bg-no-repeat bg-center ">
+<section class="bg-[url('https://plus.unsplash.com/premium_photo-1675842663249-a8b70103dbaa?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870')]  bg-cover  bg-no-repeat bg-center ">
   <div class="bg-black/70 min-h-[15rem] lg:min-h-[25rem] flex flex-col gap-3.5 items-center justify-center text-white">
     <h1 class="text-3xl pb-2 md:pb-2.5 xl:pb-3.5 md:text-4xl xl:text-5xl  font-semibold grid place-items-center">Contact Us</h1>
     <div class="tracking-wider space-x-1 text-[15px]">
@@ -68,7 +68,7 @@
 </section>
 
 <!-- My Form -->
-<section class="bg-[url('assets/img/contactBg-2.svg')] bg-cover bg-center bg-no-repeat p-3 py-10 md:py-20 xl:py-36">
+<section class="bg-[url('https://plus.unsplash.com/premium_photo-1681487743905-d1a1881b03bf?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870')] bg-cover bg-center bg-no-repeat p-3 py-10 md:py-20 xl:py-36">
   <div
     class="space-y-10 *:mx-auto *:max-w-[700px] xl:mx-auto xl:flex xl:max-w-[1350px] xl:items-end xl:gap-16 xl:space-y-0 *:xl:max-w-full">
     <!-- {/* Detail */} -->
@@ -79,8 +79,7 @@
           We’re always ready to help !
         </p>
         <p>
-          We’re here to turn your ideas into powerful solutions that drive real growth. Let’s connect and explore how we can build success together.
-        </p>
+Count on us to provide dependable machinery and expert guidance — let’s work together to make your next project smooth, efficient, and successful.        </p>
       </div>
       <div class="flex flex-col space-y-2.5 tracking-wide">
         <div class="flex gap-[20px] items-center">
@@ -94,8 +93,8 @@
             </svg>
           </div>
           <div class="flex flex-col leading-6">
-            <span>E1006 Aditya World City, Ghaziabad</span>
-            <span> Uttar Pradesh | 201002 </span>
+            <span>f50204 Aditya World City, Ghaziabad</span>
+            <span> Uttar Pradesh | 201202 </span>
           </div>
         </div>
         <div class="flex gap-[20px] items-center">
@@ -108,7 +107,7 @@
               <path d="M21 16.42v3.536a1 1 0 0 1-.93.998c-.437.03-.794.046-1.07.046-8.837 0-16-7.163-16-16 0-.276.015-.633.046-1.07A1 1 0 0 1 4.044 3H7.58a.5.5 0 0 1 .498.45c.023.23.044.413.064.552A13.901 13.901 0 0 0 9.35 8.003c.095.2.033.439-.147.567l-2.158 1.542a13.047 13.047 0 0 0 6.844 6.844l1.54-2.154a.462.462 0 0 1 .573-.149 13.897 13.897 0 0 0 4 1.205c.139.02.322.041.55.064a.5.5 0 0 1 .449.498Z" />
             </svg>
           </div>
-          <span>+91 8178468838</span>
+          <span>+91 7778468898</span>
         </div>
         <div class="flex gap-[20px] items-center">
           <div class="w-full max-w-[1.1rem] opacity-70">
@@ -120,7 +119,7 @@
               <path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Zm9.06 8.683L5.648 6.238 4.353 7.762l7.72 6.555 7.581-6.56-1.308-1.513-6.285 5.439Z" />
             </svg>
           </div>
-          <span>dverto.ai@gmail.com</span>
+          <span>construction@gmail.com</span>
         </div>
       </div>
       <div class="grid w-full max-w-[25rem] space-y-3.5 text-[15px] md:flex md:max-w-full md:gap-2.5 md:space-y-0 xl:gap-6">
@@ -207,11 +206,21 @@
 
     <!-- {/* Form */} -->
     <div class="xl:w-[32rem]">
-      <form id="contact-form" method="POST" action="send-contact.php" novalidate
+      <form id="contactForm" action="{{ route('contact.submit') }}" method="POST"  novalidate
         class="flex w-full flex-col gap-4 border-[0.5px] border-gray-200 rounded-md bg-white px-7 py-10 shadow-[-1px_0px_25px_-5px] shadow-gray-300/80 lg:gap-6">
+         @csrf
         <div class="group relative w-full">
-          <label for="c-name" class="block text-gray-800 font-semibold space-x-1">Name <span class="text-red-500">*</span></label>
-          <input id="c-name" placeholder="Enter Full Name" name="name" autocomplete="name" type="text"
+          <label for="c-name" class="block text-gray-800 font-semibold space-x-1">First Name <span class="text-red-500">*</span></label>
+          <input id="c-name" placeholder="Enter First Name" name="first_name" autocomplete="name" type="text"
+            minlength="3" pattern="^[A-Za-zÀ-ÖØ-öø-ÿ'’\-\. ]{3,}$" required
+            class="w-full border-b border-gray-300 px-0 py-2 outline-none placeholder:text-gray-400/80">
+          <span class="absolute left-0 bottom-0 h-[1.5px] w-0 bg-blue-900 transition-all duration-500 group-focus-within:w-full"></span>
+          <small class="mt-1 text-red-600 hidden" data-err="name">Enter a valid name (min 3 letters).</small>
+        </div>
+
+                <div class="group relative w-full">
+          <label for="c-name" class="block text-gray-800 font-semibold space-x-1">Last Name <span class="text-red-500">*</span></label>
+          <input id="c-name" placeholder="Enter Last Name" name="last_name" autocomplete="name" type="text"
             minlength="3" pattern="^[A-Za-zÀ-ÖØ-öø-ÿ'’\-\. ]{3,}$" required
             class="w-full border-b border-gray-300 px-0 py-2 outline-none placeholder:text-gray-400/80">
           <span class="absolute left-0 bottom-0 h-[1.5px] w-0 bg-blue-900 transition-all duration-500 group-focus-within:w-full"></span>
@@ -249,11 +258,11 @@
           <input type="text" name="website" tabindex="-1" autocomplete="off">
         </div>
 
-        <div class="flex items-start gap-2 mt-2">
+        <!-- <div class="flex items-start gap-2 mt-2">
           <input id="c-consent" type="checkbox" required class="lg:size-5">
           <label for="c-consent" class="text-sm text-gray-700">I consent to Dverto.AI storing my information to process this request.</label>
         </div>
-        <small class="mt-1 text-red-600 hidden" data-err="consent">Please accept the consent to proceed.</small>
+        <small class="mt-1 text-red-600 hidden" data-err="consent">Please accept the consent to proceed.</small> -->
 
         <button id="c-submit" type="submit"
           class="font-montserrat relative z-10 mt-3 w-full cursor-pointer bg-blue-900 rounded-md overflow-hidden px-5 py-2 text-[15px] font-semibold tracking-wider text-white before:absolute before:bottom-0 before:left-0 before:-z-10 before:h-full before:w-0 before:bg-white hover:text-blue-800 transition-all duration-500 border border-transparent hover:border-blue-800 before:transition-all before:duration-500 hover:before:w-full">

@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use Exception;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Mail;
 use App\Mail\ContactFormMail;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
@@ -19,7 +21,7 @@ class ContactController extends Controller
             'message'    => 'required|string',
         ]);
 
-        $adminEmail = 'kumarbharat9416@gmail.com';
+        $adminEmail = env('ADMIN_EMAIL');
         try {
             $mailer = config('mail.default');
             if (in_array($mailer, ['log', 'array'])) {

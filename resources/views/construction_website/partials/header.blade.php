@@ -45,7 +45,7 @@
                <a href="{{route('equipment')}}" class="hover:text-yellow-500">Machinery</a>
                <a href="{{route('project')}}" class="hover:text-yellow-500">Projects</a>
                <a href="{{route('faq')}}" class="hover:text-yellow-500">FAQ's</a>
-               <a href="#contact" id="contact-link" class="hover:text-yellow-500">Contact Us</a>
+               <a href="{{route('contact-us')}}"  class="hover:text-yellow-500">Contact Us</a>
              </nav>
            </div>
          </div>
