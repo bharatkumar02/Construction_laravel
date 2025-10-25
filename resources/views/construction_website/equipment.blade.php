@@ -152,4 +152,9 @@ Advanced Construction Vehicles for Every Challenge        </h2>
   </section>
 </div>
 
+<!-- whatsapp logo -->
+<div class="fixed right-7 bottom-10 max-w-[3.5rem] z-50 group  border rounded-full border-green-500 p-2.5 drop-shadow-md bg-white/20 backdrop-blur-lg lg:max-w-[4rem] lg">
+  <a href="" ><img class="group-hover:scale-110 transition-all duration-300" src="./images/whatsapp.svg" alt="whatsapp"></a>
+</div>
+
 @endsection

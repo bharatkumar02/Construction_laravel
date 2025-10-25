@@ -11,9 +11,9 @@
   {{-- Images --}}
   <div class="flex flex-col gap-4">
     @foreach ($project['images'] as $image)
-      <div>
-        <img src="{{ $image }}" alt="{{ $project['title'] }}" />
-      </div>
+    <div>
+      <img src="{{ $image }}" alt="{{ $project['title'] }}" />
+    </div>
     @endforeach
   </div>
 
@@ -31,7 +31,7 @@
       <h4 class="font-semibold font-montserrat">Project Description</h4>
       <div class="space-y-3">
         @foreach ($project['description'] as $paragraph)
-          <p class="leading-relaxed">{{ $paragraph }}</p>
+        <p class="leading-relaxed">{{ $paragraph }}</p>
         @endforeach
       </div>
     </div>
@@ -46,10 +46,10 @@
     {{-- Features --}}
     <ul class="space-y-2 *:space-x-2.5 text-[15px] pt-3.5">
       @foreach ($project['features'] as $feature)
-        <li>
-          <span class="text-xl"><i class="{{ $feature['icon'] }}"></i></span>
-          <span class="font-medium">{{ $feature['text'] }}</span>
-        </li>
+      <li>
+        <span class="text-xl"><i class="{{ $feature['icon'] }}"></i></span>
+        <span class="font-medium">{{ $feature['text'] }}</span>
+      </li>
       @endforeach
     </ul>
 
@@ -59,11 +59,18 @@
       <span class="font-semibold tracking-wider">{{ $project['contact'] }}</span>
     </a>
 
-    <button class="px-6 py-2 bg-black text-white font-montserrat">
-      Contact Us
-      <span class="font-medium text-lg pl-1.5"><i class="ri-arrow-right-long-fill"></i></span>
-    </button>
+    <div class="w-fit hover:-translate-y-1 transition-all duration-300">
+      <a href="#contact" class="px-6 py-2 bg-black text-white font-montserrat">
+        Contact Us
+        <span class="font-medium text-lg pl-1.5"><i class="ri-arrow-right-long-fill"></i></span>
+      </a>
+    </div>
   </div>
 </section>
+
+<!-- whatsapp logo -->
+<div class="fixed right-7 bottom-10 max-w-[3.5rem] z-50 group  border rounded-full border-green-500 p-2.5 drop-shadow-md bg-white/20 backdrop-blur-lg lg:max-w-[4rem] lg">
+  <a href=""><img class="group-hover:scale-110 transition-all duration-300" src="../images/whatsapp.svg" alt="whatsapp"></a>
+</div>
 
 @endsection

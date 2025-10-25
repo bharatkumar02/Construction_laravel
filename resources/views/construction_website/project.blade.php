@@ -22,12 +22,12 @@
     <div class="relative w-full lg:z-20 lg:pt-16">
       <div>
         <img
-          src="https://images.unsplash.com/photo-1684763046850-56fb4a3e9918?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=435"
+          src="./images/project.png"
           alt="backhoe"
-          class="object-contain max-w-[20rem] lg:max-w-[38rem] mx-auto drop-shadow-lg" />
+          class="object-contain max-w-[20rem] lg:max-w-[45rem] mx-auto drop-shadow-lg" />
       </div>
       <div
-        class="absolute h-[70%] bg-gradient-to-b from-black via-black to-black/85 w-full top-0 -z-10 lg:h-full lg:w-[50%] lg:right-0"></div>
+        class="absolute h-[70%] bg-gradient-to-b from-black via-black to-black/85 w-full top-0 -z-10 lg:h-full lg:w-[15%] lg:right-0"></div>
     </div>
   </section>
 
@@ -38,7 +38,7 @@
       class="bg-gradient-to-b from-yellow-600 via-yellow-600 to-yellow-500 text-white font-montserrat p-5 leading-relaxed py-8 lg:py-12 xl:px-8 lg:sticky lg:top-0 lg:max-w-[25rem] lg:h-fit">
       <div class="space-y-5 lg:space-y-8">
         <h2 class=" text-xl md:text-2xl leading-relaxed font-semibold md:pr-10">
-Powering Construction Success Across Sites
+          Powering Construction Success Across Sites
         </h2>
         <p>
           Every project we support is backed by reliable, high-performance construction vehicles. From excavation and material handling to roadwork and heavy lifting, our fleet helps clients complete tasks efficiently, safely, and on schedule.
@@ -58,10 +58,13 @@ Powering Construction Success Across Sites
 
         <a href=""><span class="text-xl"><i class="ri-phone-fill"></i></span><span class="font-semibold tracking-wider">+91 837-897-6133</span></a>
       </div>
-      <button class="mt-7 px-6 py-2 bg-black text-white font-montserrat">
-        Contact Us
-        <span class="font-medium text-lg pl-1.5"><i class="ri-arrow-right-long-fill"></i></span>
-      </button>
+      <div class="w-fit hover:-translate-y-1 transition-all duration-300 mt-7">
+
+        <a href="#contact" class="px-6 py-2.5 bg-black text-white font-montserrat">
+          Contact Us
+          <span class="font-medium text-lg pl-1.5"><i class="ri-arrow-right-long-fill"></i></span>
+        </a>
+      </div>
 
       <div class="absolute size-[3.5rem] bg-gray-100 bottom-0 right-0"></div>
       <div class="absolute size-[2rem] bg-gray-100 bottom-0 right-14"></div>
@@ -94,19 +97,22 @@ Powering Construction Success Across Sites
           <p class="text-[15px] text-gray-600 leading-relaxed pt-2 mb-5 line-clamp-3">
             {{ $project['description'][1] }}
           </p>
-          <a href="{{ route('project_detail', ['slug' => $project['slug']]) }}" class="px-6 py-2.5 bg-black rounded text-white font-montserrat">
-            Know More
-            <span class="font-medium text-lg pl-1.5"><i class="ri-arrow-right-long-fill"></i></span>
-          </a>
+          <div class="w-fit hover:-translate-y-1 transition-all duration-300">
+            <a href="{{ route('project_detail', ['slug' => $project['slug']]) }}" class="px-6 py-2.5 bg-black rounded text-white font-montserrat">
+              Know More
+              <span class="font-medium text-lg pl-1.5"><i class="ri-arrow-right-long-fill"></i></span>
+            </a>
+          </div>
         </div>
       </div>
       @endforeach
-
-
-
-
     </div>
   </section>
+</div>
+
+<!-- whatsapp logo -->
+<div class="fixed right-7 bottom-10 max-w-[3.5rem] z-50 group  border rounded-full border-green-500 p-2.5 drop-shadow-md bg-white/20 backdrop-blur-lg lg:max-w-[4rem] lg">
+  <a href="" ><img class="group-hover:scale-110 transition-all duration-300" src="./images/whatsapp.svg" alt="whatsapp"></a>
 </div>
 
 @endsection

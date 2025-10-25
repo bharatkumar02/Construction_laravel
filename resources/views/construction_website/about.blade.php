@@ -24,7 +24,7 @@
         <img
           src="./images/team.png"
           alt="backhoe"
-          class="object-contain max-w-[20rem] lg:max-w-[38rem] mx-auto drop-shadow-lg" />
+          class="object-contain max-w-[20rem] lg:max-w-[45rem] mx-auto drop-shadow-lg" />
       </div>
       <div
         class="absolute h-[70%] bg-gradient-to-b from-black via-black to-black/85 w-full top-0 -z-10 lg:h-full lg:w-[50%] lg:right-0"></div>
@@ -34,7 +34,7 @@
   <!-- Our History -->
   <section class="bg-gray-100 lg:py-24 flex flex-col-reverse *:lg:w-1/2 lg:flex-row">
     <div class="lg:text-start px-6 md:px-10 lg:px-10 xl:px-16 py-10 lg:pt-0 pb-16">
-      <div class="text-sm text-yellow-500 font-semibold font-montserrat">
+      <div class="text-sm text-yellow-600 font-semibold font-montserrat">
         Our Work Process
       </div>
       <h2 class="mt-2 text-3xl font-bold font-montserrat lg:pb-4">How We Work</h2>
@@ -59,12 +59,12 @@
       <blockquote
         class="mt-8 border-l-4 border-yellow-500 pl-4 italic text-gray-700 flex gap-3 flex-col">
         “We started with one mission — to keep every project moving with trust and reliability. That principle still drives us today.”
-        <span class="not-italic font-semibold text-gray-900 font-montserrat">— Bharat Kumar, <span class="text-yellow-500">Founder</span></span>
+        <span class="not-italic font-semibold text-gray-900 font-montserrat">— Bharat Kumar, <span class="text-yellow-600">Founder</span></span>
       </blockquote>
     </div>
 
     <div class="lg:rounded-l-md relative z-10">
-      <img src="./images/discussion.jpg" alt="" class="rounded-l-md shadow-lg" />
+      <img src="./images/about.png" alt="" class="bg-gray-50 rounded-l-md shadow-md" />
 
       <div
         class="flex absolute bg-white -bottom-5 right-2 gap-0.5 shadow-md flex-col px-3 py-3 text-[13px] font-semibold lg:-top-5 lg:h-fit lg:left-5 lg:right-auto">
@@ -83,7 +83,7 @@
           <span
             class="float-left max-w-[8rem] xl:max-w-[12rem] pr-2 shrink-0 xl:float-none"><img src="./images/img.png" alt="" class="drop-shadow-lg" /></span>
           <p class="tracking-wide leading-relaxed text-[15px] lg:text-base">
-           At BuildStrong Rentals, our mission is to provide dependable, well-maintained construction vehicles that keep projects running efficiently and on schedule. We are committed to safety, reliability, and excellence in service — helping our clients complete every job with confidence.
+            At BuildStrong Rentals, our mission is to provide dependable, well-maintained construction vehicles that keep projects running efficiently and on schedule. We are committed to safety, reliability, and excellence in service — helping our clients complete every job with confidence.
           </p>
         </div>
       </div>
@@ -94,7 +94,7 @@
           <span
             class="float-left max-w-[8rem] xl:max-w-[12rem] pr-2 shrink-0 xl:float-none"><img src="./images/rollar.png" alt="" class="drop-shadow-lg" /></span>
           <p class="tracking-wide leading-relaxed text-[15px] lg:text-base">
-           Our vision is to become the most trusted partner in the construction rental industry — recognized for our quality fleet, transparent operations, and commitment to supporting a sustainable, high-performing construction ecosystem.
+            Our vision is to become the most trusted partner in the construction rental industry — recognized for our quality fleet, transparent operations, and commitment to supporting a sustainable, high-performing construction ecosystem.
           </p>
         </div>
       </div>
@@ -104,7 +104,7 @@
   <!-- Team Members -->
   <section class="px-6 pt-16 bg-white lg:px-14 xl:px-32 pb-28">
     <div class="text-center lg:pb-10">
-      <div class="text-sm text-yellow-500 font-semibold font-montserrat">
+      <div class="text-sm text-yellow-600 font-semibold font-montserrat">
         Our Team
       </div>
       <h2 class="mt-2 text-3xl font-bold font-montserrat">
@@ -116,53 +116,64 @@
 
     <!-- Team -->
     <div class="mt-10 flex flex-col gap-7 md:flex-row xl:gap-10 lg:mt-5">
-      <div class="border-[0.5px] shadow shadow-gray-200 border-gray-100 rounded overflow-hidden">
-        <div class="w-full">
+      <!-- Start -->
+      <div class="shadow shadow-gray-300 overflow-hidden rounded bg-white">
+        <div class="h-[12rem]">
           <img
             src="https://wpcharming.com/construction/wp-content/uploads/sites/8/2015/02/Member3-800x400.jpg"
-            alt=""
-            class="w-full" />
+            alt="img-1"
+            class="size-full object-cover" />
         </div>
-        <div class="space-y-2.5 p-4">
-          <h3 class="font-montserrat font-semibold text-[15px]">Bharat Kumar</h3>
-          <p class="text-[15px] text-gray-600 leading-relaxed">
+        <div class="space-y-2.5 p-4 xl:p-6 pb-7">
+          <h3 class="font-montserrat font-semibold">Karan Singh</h3>
+          <p class="text-[15px] text-gray-600 leading-relaxed pt-2 mb-5">
             Oversees our entire fleet of construction vehicles, ensuring all machinery is maintained, ready for delivery, and meets safety standards. Dedicated to maximizing uptime and keeping projects running smoothly.
           </p>
           <i class="font-montserrat font-semibold flex gap-0.5 text-yellow-600"><span class="w-5 h-[3px] bg-yellow-600 mt-4"></span>Fleet Manager</i>
         </div>
       </div>
-      <div class="border-[0.5px] shadow shadow-gray-200 border-gray-100 rounded overflow-hidden">
-        <div class="w-full">
+      <!-- End -->
+      <!-- Start -->
+      <div class="shadow shadow-gray-300 overflow-hidden rounded bg-white">
+        <div class="h-[12rem]">
           <img
             src="https://wpcharming.com/construction/wp-content/uploads/sites/8/2015/02/Member2-800x400.jpg"
-            alt=""
-            class="w-full" />
+            alt="img-1"
+            class="size-full object-cover" />
         </div>
-        <div class="space-y-2.5 p-4">
-          <h3 class="font-montserrat font-semibold text-[15px]">Bharat Kumar</h3>
-          <p class="text-[15px] text-gray-600 leading-relaxed">
-           Manages bookings, scheduling, and on-site delivery of vehicles. Works closely with clients to ensure every rental is efficient, timely, and hassle-free.
+        <div class="space-y-2.5 p-4 xl:p-6 pb-7">
+          <h3 class="font-montserrat font-semibold">Shivam Gupta</h3>
+          <p class="text-[15px] text-gray-600 leading-relaxed pt-2 mb-5">
+            Oversees our entire fleet of construction vehicles, ensuring all machinery is maintained, ready for delivery, and meets safety standards. Dedicated to maximizing uptime and keeping projects running smoothly.
           </p>
-          <i class="font-montserrat font-semibold flex gap-0.5 text-yellow-600"><span class="w-5 h-[3px] bg-yellow-600 mt-4"></span>Operations Coordinator</i>
+          <i class="font-montserrat font-semibold flex gap-0.5 text-yellow-600"><span class="w-5 h-[3px] bg-yellow-600 mt-4"></span>Dealer</i>
         </div>
       </div>
-      <div class="border-[0.5px] shadow shadow-gray-200 border-gray-100 rounded overflow-hidden">
-        <div class="w-full">
+      <!-- End -->
+      <!-- Start -->
+      <div class="shadow shadow-gray-300 overflow-hidden rounded bg-white">
+        <div class="h-[12rem]">
           <img
             src="https://wpcharming.com/construction/wp-content/uploads/sites/8/2015/02/Member1-800x400.jpg"
-            alt=""
-            class="w-full" />
+            alt="img-1"
+            class="size-full object-cover" />
         </div>
-        <div class="space-y-2.5 p-4">
-          <h3 class="font-montserrat font-semibold text-[15px]">Ankit Yadav</h3>
-          <p class="text-[15px] text-gray-600 leading-relaxed">
-            Provides expert guidance to clients on choosing the right vehicle for their project. Handles all inquiries, documentation, and ensures smooth handovers and returns.
+        <div class="space-y-2.5 p-4 xl:p-6 pb-7">
+          <h3 class="font-montserrat font-semibold">Sarjeet Singh</h3>
+          <p class="text-[15px] text-gray-600 leading-relaxed pt-2 mb-5">
+            Oversees our entire fleet of construction vehicles, ensuring all machinery is maintained, ready for delivery, and meets safety standards. Dedicated to maximizing uptime and keeping projects running smoothly.
           </p>
-          <i class="font-montserrat font-semibold flex gap-0.5 text-yellow-600"><span class="w-5 h-[3px] bg-yellow-600 mt-4"></span>Customer Support</i>
+          <i class="font-montserrat font-semibold flex gap-0.5 text-yellow-600"><span class="w-5 h-[3px] bg-yellow-600 mt-4"></span>Construction Manager</i>
         </div>
       </div>
+      <!-- End -->
     </div>
   </section>
+</div>
+
+<!-- whatsapp logo -->
+<div class="fixed right-7 bottom-10 max-w-[3.5rem] z-50 group  border rounded-full border-green-500 p-2.5 drop-shadow-md bg-white/20 backdrop-blur-lg lg:max-w-[4rem] lg">
+  <a href="" ><img class="group-hover:scale-110 transition-all duration-300" src="./images/whatsapp.svg" alt="whatsapp"></a>
 </div>
 
 @endsection

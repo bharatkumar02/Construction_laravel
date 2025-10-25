@@ -95,6 +95,11 @@ $activeCategory = $categories[0]; // Default active category
   </div>
 </section>
 
+<!-- whatsapp logo -->
+<div class="fixed right-7 bottom-10 max-w-[3.5rem] z-50 group  border rounded-full border-green-500 p-2.5 drop-shadow-md bg-white/20 backdrop-blur-lg lg:max-w-[4rem] lg">
+  <a href="" ><img class="group-hover:scale-110 transition-all duration-300" src="./images/whatsapp.svg" alt="whatsapp"></a>
+</div>
+
 <!-- JS: Category Switch + Accordion -->
 <script>
   const categories = @json($categories);
@@ -175,5 +180,7 @@ $activeCategory = $categories[0]; // Default active category
     faqCategoryBtns[0]?.classList.add('active', 'text-yellow-500', 'font-semibold');
   }
 </script>
+
+
 
 @endsection

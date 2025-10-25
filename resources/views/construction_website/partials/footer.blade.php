@@ -83,11 +83,11 @@
 
              <li class="flex items-center gap-2">
                <span
-                 class="border size-[2rem] border-dashed grid place-items-center text-[16px]"><i class="ri-mail-fill"></i></span><span>kumarbharat9416@gmail.com</span>
+                 class="border size-[2rem] border-dashed grid place-items-center text-[16px]"><i class="ri-mail-fill"></i></span><span>construction@gmail.com</span>
              </li>
              <li class="flex items-center gap-2">
                <span
-                 class="border size-[2rem] border-dashed grid place-items-center text-[16px]"><i class="ri-map-pin-2-fill"></i></span><span>192, Hanuman Mandir, Near Badi Haveli | 123106</span>
+                 class="border size-[2rem] border-dashed grid place-items-center text-[16px]"><i class="ri-map-pin-2-fill"></i></span><span>abc, Hanuman Garh, Alwar | 412547</span>
              </li>
            </ul>
          </div>
