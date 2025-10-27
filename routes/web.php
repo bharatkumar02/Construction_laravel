@@ -9,7 +9,7 @@ Route::get('/', fn() => view('construction_website.index'))->name('index');
 Route::get('/equipment', fn() => view('construction_website.equipment'))->name('equipment');
 Route::get('/faq', fn() => view('construction_website.faq'))->name('faq');
 Route::get('/project', fn() => view('construction_website.project'))->name('project');
-Route::get('/contact-us', fn() => view('construction_website.partials.contact-us'))->name('contact-us');
+Route::get('/contact-us', fn() => view('construction_website.contact-us'))->name('contact-us');
 Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');
 
 Route::get('/projects/{slug}', function ($slug) {
